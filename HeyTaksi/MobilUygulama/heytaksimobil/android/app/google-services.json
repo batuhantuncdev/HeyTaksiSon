@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "822969608871",
+    "project_id": "hey-taksi-mobile-app",
+    "storage_bucket": "hey-taksi-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822969608871:android:08b925963675be12614982",
+        "android_client_info": {
+          "package_name": "com.heytaksi.heytaksimobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822969608871-pnrg337448tcfdh7kekcokcfq1h66n6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcI2gZk1MqydEJ4J-vykN_7yliHvfP5Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822969608871-pnrg337448tcfdh7kekcokcfq1h66n6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

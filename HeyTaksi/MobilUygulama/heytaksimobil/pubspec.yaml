@@ -1,0 +1,40 @@
+name: heytaksimobil
+description: Hey Taksi Mobile App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  api_cache_manager: ^1.0.2
+  snippet_coder_utils: ^1.0.9
+  cupertino_icons: ^1.0.2
+  localstorage: ^4.0.0+1
+  image_picker: ^0.8.2
+  firebase_core: ^1.17.0
+  firebase_storage: ^10.2.16
+  firebase_messaging: ^11.4.0
+  dio: ^4.0.0
+  google_maps_flutter: ^2.1.5
+  fluttertoast: ^8.0.9
+  geolocator: ^7.0.3
+  flutter_polyline_points: ^1.0.0
+  geocoding: ^2.0.0
+  provider: ^6.0.3
+  rflutter_alert: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/heytaksilogo.png

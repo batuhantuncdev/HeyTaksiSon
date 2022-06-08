@@ -1,0 +1,9 @@
+1. Uygulama calisirken baslangicta bir super user olusacak. Veritabani AppUser tablosuna bakin.
+2. Eger kullanici varsa, onun email ve passwordunu girerek postmandan request gonder.
+3. Gelen cevapta bulunan token kismini al.
+4. GetAppUserList requestinin Headers kisminda Sol tarafa "Authorization", Sag tarafa bu token girilecek. Ve istek gonderilecek. Eger calisiyorsa dogru yapilmistir.
+
+-- DEVELOPMENT -- --------------------------------
+1. Flutterdan Spring backend e bu token kullanarak login request atin.
+2. Backendde Appuser icin yazdigimiz servis katmaninin Customer ve Driver icin yazmaya calisin.
+3. Sirasiyla repository -> service -> dto -> controller 
